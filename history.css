@@ -1,0 +1,129 @@
+
+.Hcards {
+    height: 80vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Hcard {
+    height: 80%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.Hcard1 {
+    background-image: url('https://i0.wp.com/itihasaa.com/wp-content/uploads/2023/04/Dark-Ages-Kings-1.png?fit=1024%2C1024&ssl=1');
+    height: 90%;
+    width: 25%;
+    background-color: black;
+    margin: 1em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 2em;
+    cursor: pointer;
+}
+.Hcard1 h2{
+    text-align: center;
+    visibility: hidden;
+    color: white;
+    font-size: 2em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+.Hcard1:hover{
+    opacity: 0.5;
+}
+.Hcard1:hover  h2{
+    visibility: visible;
+}
+
+
+.Hcard2 {
+    background-image: url('https://static.wixstatic.com/media/c712fa_dcfdf6553bc048a586d684fdfb2158a2.jpg/v1/fill/w_497,h_422,al_c,lg_1,q_80,enc_auto/c712fa_dcfdf6553bc048a586d684fdfb2158a2.jpg');
+    height: 90%;
+    width: 25%;
+    background-color: blue;
+    margin: 1em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 2em;
+    cursor: pointer;
+}
+.Hcard2 h2{
+    text-align: center;
+    visibility: hidden;
+    color: white;
+    font-size: 2em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+.Hcard2:hover{
+    opacity: 0.5;
+}
+.Hcard2:hover  h2{
+    visibility: visible;
+}
+
+
+.Hcard3 {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZB5OZlnTLjRIPK_5ROkk8SX0mE9RCNkYOJrHUGGqSLbtjvelCbCWxRgNVSJqMaxi7tEU&usqp=CAU');
+    height: 90%;
+    width: 25%;
+    background-color: blue;
+    margin: 1em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 2em;
+    cursor: pointer;
+}
+.Hcard3 h2{
+    text-align: center;
+    visibility: hidden;
+    color: white;
+    font-size: 3em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+.Hcard3:hover{
+    opacity: 0.5;
+}
+.Hcard3:hover  h2{
+    visibility: visible;
+}
+
+
+.Hcard4 {
+    background-image: url('https://www.bhaktapur.com/wp-content/uploads/2020/04/King-Bhupatindra-Malla-1200x900.jpg');
+    height: 90%;
+    width: 25%;
+    background-color: blue;
+    margin: 1em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 2em;
+    cursor: pointer;
+}
+.Hcard4 h2{
+    text-align: center;
+    visibility: hidden;
+    color: white;
+    font-size: 3em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+.Hcard4:hover{
+    opacity: 0.5;
+}
+.Hcard4:hover  h2{
+    visibility: visible;
+}

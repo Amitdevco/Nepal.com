@@ -1,0 +1,130 @@
+
+.cards {
+
+    height: 80vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    height: 80%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.card1 {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqf4TWxgSOKJUeftuAxW_j5pfj7zncdjGX3Q&s');
+    height: 90%;
+    width: 25%;
+    background-color: black;
+    margin: 1em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 2em;
+    cursor: pointer;
+}
+.card1 h2{
+    text-align: center;
+    visibility: hidden;
+    color: white;
+    font-size: 2em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+.card1:hover{
+    opacity: 0.5;
+}
+.card1:hover  h2{
+    visibility: visible;
+}
+
+
+.card2 {
+    background-image: url('https://mir-s3-cdn-cf.behance.net/projects/404/aa3649184238525.654de26e8243a.jpg');
+    height: 90%;
+    width: 25%;
+    background-color: blue;
+    margin: 1em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 2em;
+    cursor: pointer;
+}
+.card2 h2{
+    text-align: center;
+    visibility: hidden;
+    color: white;
+    font-size: 2em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+.card2:hover{
+    opacity: 0.5;
+}
+.card2:hover  h2{
+    visibility: visible;
+}
+
+
+.card3 {
+    background-image: url('https://img.freepik.com/premium-vector/happy-teej-festival-nepal-with-nepali-font_85216-28.jpg?w=360');
+    height: 90%;
+    width: 25%;
+    background-color: blue;
+    margin: 1em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 2em;
+    cursor: pointer;
+}
+.card3 h2{
+    text-align: center;
+    visibility: hidden;
+    color: white;
+    font-size: 3em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+.card3:hover{
+    opacity: 0.5;
+}
+.card3:hover  h2{
+    visibility: visible;
+}
+
+
+.card4 {
+    background-image: url('https://mir-s3-cdn-cf.behance.net/projects/404/815974185007211.Y3JvcCwxMTc0LDkxOSwxNTksMA.png');
+    height: 90%;
+    width: 25%;
+    background-color: blue;
+    margin: 1em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 2em;
+    cursor: pointer;
+}
+.card4 h2{
+    text-align: center;
+    visibility: hidden;
+    color: white;
+    font-size: 3em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+.card4:hover{
+    opacity: 0.5;
+}
+.card4:hover  h2{
+    visibility: visible;
+}

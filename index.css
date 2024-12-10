@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+nav {
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    padding: 0.5em 1em;
+}
+
+nav a:hover {
+    background-color: aliceblue;
+    border-top-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+    color: black;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+    gap: 5em;
+}
+
+main {
+    height: 95vh;
+    background-image: url('img/bg.jpg');
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 1em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    animation: imgchange 15s infinite;
+}
+
+
+@keyframes imgchange {
+    0% { background-image: url('img/bg.jpg'); }
+    20% { background-image: url('https://wallpapercave.com/wp/wp4075349.jpg'); }
+    40% { background-image: url('https://wallpapercave.com/wp/wp3107779.jpg'); }
+    60% { background-image: url('https://wallpapercave.com/wp/Auq0yL5.jpg'); }
+    80% { background-image: url('https://wallpapercave.com/wp/mJ8Gjg9.jpg'); }
+    100% { background-image: url('https://wallpapercave.com/wp/wp4075366.jpg'); }
+}
+
+
+.section-one {
+    height: 80vh;
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.section-one .faq1 {
+    background-color: rgb(94, 92, 92);
+    height: 12%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-one .faq1 p {
+    color: white;
+    font-size: 1.5em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 1em 1em;
+}
+
+.section-one .faq1 button {
+    background-color: transparent;
+    border: none;
+    background-image: url('img/down.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50%;
+    width: 3%;
+    margin: 1em;
+    filter: invert(1);
+    cursor: pointer;
+}
+
+.section-one .faq1 #btn1 {
+    display: none;
+}
+
+.section-one #ans1 {
+    background-color: rgb(70, 68, 68);
+    height: 50%;
+    width: 80%;
+    display: none;
+}
+
+.section-one #ans1 p {
+    color: white;
+    font-size: 1em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    padding: 1em 1em;
+}
+/* festivalsss ///////////////////////////////////////////////////// */
+
+.section-one .faq1festival {
+    background-color: rgb(94, 92, 92);
+    height: 12%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-one .faq1festival p {
+    color: white;
+    font-size: 1.5em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 1em 1em;
+}
+
+.section-one .faq1festival button {
+    background-color: transparent;
+    border: none;
+    background-image: url('img/down.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50%;
+    width: 3%;
+    margin: 1em;
+    filter: invert(1);
+    cursor: pointer;
+}
+
+.section-one .faq1festival #btn1festival {
+    display: none;
+}
+
+.section-one #ans1festival {
+    background-color: rgb(70, 68, 68);
+    height: 50%;
+    width: 80%;
+    display: none;
+}
+
+.section-one #ans1festival p {
+    color: white;
+    font-size: 1em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    padding: 1em 1em;
+}
+
+.history{
+    height: 50vh;
+    background-color: black;
+}
